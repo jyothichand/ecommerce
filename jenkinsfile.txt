@@ -1,0 +1,29 @@
+pipeline{
+  agent any
+	satge('build'){
+		steps{ 
+		echo 'running build phase..'
+		}
+	}
+
+satge('test'){
+		steps{ 
+		echo 'running testphase..'
+		}
+	}
+satge('QA'){
+		steps{ 
+		echo 'running QA phase..'
+		}
+	}
+satge('Deploy'){
+		steps{ 
+		echo 'running Deploy phase..'
+		}
+	}
+satge('Monitor'){
+		steps{ 
+		echo 'running Monitor phase..'
+		}
+	}
+}
